@@ -1,0 +1,1 @@
+const popup=document.getElementById('popup'),popupImg=document.getElementById('popup-img'),close=document.getElementById('close-popup');document.querySelectorAll('.thumb').forEach(el=>{el.onclick=()=>{popupImg.src=el.src;popup.classList.add('show')}});close.onclick=()=>popup.classList.remove('show')
